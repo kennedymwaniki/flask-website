@@ -9,6 +9,7 @@ def hello_world():  # put application's code here
 
 
 # @app.route("/<string:page_name>")
+#this will render the page based on the #\n name passed in the url.
 # def html_page(page_name):
 #     return render_template(page_name)
 
