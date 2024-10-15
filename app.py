@@ -9,7 +9,7 @@ def hello_world():  # put application's code here
 
 
 # @app.route("/<string:page_name>")
-#this will render the page based on the #\n name passed in the url.
+# this will render the page based on the #\n name passed in the url.
 # def html_page(page_name):
 #     return render_template(page_name)
 
@@ -59,6 +59,7 @@ def write_to_csv(data):
 
 
 @app.route('/submit_form', methods=['POST', 'GET'])
+# contact form submission
 def submit_form():
     try:
         if request.method == 'POST':
